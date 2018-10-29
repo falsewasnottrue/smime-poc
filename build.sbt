@@ -13,6 +13,8 @@ libraryDependencies ++= Seq(
   "javax.mail" % "mail" % "1.4.7",
   "org.bouncycastle" % "bcprov-jdk15on" % "1.60",
   "org.bouncycastle" % "bcmail-jdk15on" % "1.60",
+  "org.apache.commons" % "commons-email" % "1.4",
+  "com.typesafe.play" %% "play-mailer" % "4.0.0",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
